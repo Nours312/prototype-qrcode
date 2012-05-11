@@ -1,0 +1,28 @@
+<html>
+<head>
+<title>basic example</title>
+</head>
+<body>
+<script src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js"></script>
+
+<!--<script type="text/javascript" src="../../prototype.qrcode.min.js"></script>
+--><script type="text/javascript" src="../../src/prototype.qrcode.js"></script>
+<script type="text/javascript" src="../../src/qrcode.js"></script>
+
+<p>Render in table</p>
+<div id="qrcodeTable"></div>
+<p>Render in canvas</p>
+<div id="qrcodeCanvas"></div>
+<script>
+	//jQuery('#qrcode').qrcode("this plugin is great");
+	$('qrcodeTable').qrcode({
+		render	: "table",
+		text	: "http://blog.nours312.com/?p=166"
+	});
+	$('qrcodeCanvas').qrcode({
+		text	: "http://blog.nours312.com"
+	});
+</script>
+
+</body>
+</html>
