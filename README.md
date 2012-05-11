@@ -14,7 +14,7 @@ Show, dont tell, here is a <a href='https://github.com/jeromeetienne/jquery-qrco
 ## How to Use It
 
 Let me walk you thru it. First include it in your webpage with the usual script tag
-    
+
     <script type="text/javascript" src="jquery.qrcode.min.js"></script>
 
 Then create a DOM element which gonna contains the generated qrcode image. Lets say
@@ -39,3 +39,8 @@ You can set the height and width of the generated qrcode:
 under <a href='https://github.com/jeromeetienne/jquery-qrcode/blob/master/MIT-LICENSE.txt'>MIT license</a>.
 If you hit bugs, fill issues on github.
 Feel free to fork, modify and have fun with it :)
+
+
+Add usage For prototypeJS
+<a href='http://blog.nours312.com/2012/05/12/je-voulais-generer-un-qrcode-jai-forke/'>prototype.qrcode.js</a> is available on github
+<a href='https://github.com/Nours312/jquery-qrcode'>here</a>
